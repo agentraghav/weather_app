@@ -1,8 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import { WeatherBody } from './components/weather-body';
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <WeatherBody />
+    </div>
+  );
 }
 
 export default App;
